@@ -1,0 +1,49 @@
+{
+  "name": "pickadeli",
+  "version": "0.0.0",
+  "description": "A brokering platform for making the all-important decision of where to go for a meal",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miloconway/pickadeli.git"
+  },
+  "author": "Andy Lin <miloconway@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miloconway/pickadeli/issues"
+  },
+  "homepage": "https://github.com/miloconway/pickadeli",
+  "dependencies": {
+    "react": "^0.12.0",
+    "reactfire": "^0.4.0",
+    "bootstrap": "^3.3.0",
+    "yelp": "^0.1.1",
+    "handlebars": "^2.0.0",
+    "hapi": "^7.5.0",
+    "lodash": "^2.4.1",
+    "good": "^4.0.0",
+    "good-console": "^2.0.0",
+    "store": "^1.3.16",
+    "uuid": "^2.0.1",
+    "firebase": "^2.0.2",
+    "superagent": "^0.20.0",
+    "ampersand-state": "^4.4.0",
+    "winston": "^0.8.3",
+    "hoek": "^2.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "vinyl-source-stream": "^1.0.0",
+    "browserify": "^6.2.0",
+    "reactify": "^0.15.2",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-util": "^3.0.1",
+    "gulp-clean": "^0.3.1",
+    "chai": "^1.10.0",
+    "lab": "^5.0.3",
+    "mockfirebase": "^0.5.0"
+  }
+}
